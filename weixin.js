@@ -15,7 +15,7 @@ exports.reply= function *(next){
 			
 			this.body= '哈哈，你订阅了这个号\r\n'+ '消息ID'+ message.MsgId	
 		}else if(message.Event === 'unsubscribe'){
-			console.log('无情取关')
+			console.log('哈哈哈，无情取关')
 			this.body= ' '
 		}else if(message.Event === 'LOCATION'){
 			this.body= '您上报的地址是：'+message.Latitude+ '/' +message.Longitude+ '-' +message.Precision
