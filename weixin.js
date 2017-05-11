@@ -25,7 +25,7 @@ exports.reply= function *(next){
 			console.log('关注后扫二维码' + message.EventKey + '' + message.Ticket)
 			this.body= '看到你扫了一下哦'
 		}else if(message.Event === 'VIEW'){
-			this.body= '您点击了菜单的链接：'+ message.EventKey 
+			this.body= '您点击了菜单sdfsdafgs的链接：'+ message.EventKey
 		}
 		
 	}else if(message.MsgType === 'text'){
