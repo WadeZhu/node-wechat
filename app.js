@@ -14,4 +14,4 @@ var app = new Koa()
 app.use(wechat(config.wechat, weixin.reply))
 
 app.listen(1234)
-console.log('listening: 1234hhhh')
+console.log('listening: 1234')
